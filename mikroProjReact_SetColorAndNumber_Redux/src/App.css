@@ -1,0 +1,70 @@
+#root {
+    width: 1350px;
+    height: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+    background-color: #367577;
+}
+
+.btns {
+    width: 500px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+
+.btns button {
+    border: none;
+    padding: 5px 20px;
+    background-color: #abd9da;
+    box-shadow: 2px 2px 5px #213547;
+}
+
+.btns button:hover {
+    background-color: #8bc9cb;
+}
+
+
+#window {
+    width: 300px;
+    height: 200px;
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    border: 4px double #213547;
+    border-radius: 10px;
+}
+
+.null {
+    background-color: #abd9da;
+}
+
+.green{
+    background-color: #11e81a;
+}
+
+.red{
+    background-color: #e00d0d;
+}
+
+.blue{
+    background-color: #0a239d;
+}
+
+
+
+
+
+
